@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA Online loading times are now benefitting from a fan-made fix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="..\style.css">
+</head>
+<body class="article-template">
+    <nav class="myNavbar">
+        <a class="myNav-link" href="..\index.html">Homepage</a>
+        <a class="myNav-link" href="..\registration.html">Sign in</a>
+        <div class="myDropdown-menu">
+            <a id="nav-drop" class="myNav-link">Posts</a>
+            <div id="nav-drop-menu">
+                <a class="myDrop-link" href="..\articles.html">Articles</a>
+                <a class="myDrop-link" href="..\feedback.html">Feedback</a>
+
+            </div>
+        </div>
+    </nav>
+    <div class="article-layout">
+        <div class="article-body">
+            <div class="article-heading">
+                <span class="title">GTA Online loading times are now benefitting from a fan-made fix</span>
+                <span class="author">By Alyssa Mercante (GamesRadar+)</span>
+            </div>
+            <div class="article-text">
+                <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://ixbt.online/gametech/covers/2021/03/16/zYJs4xBkIg9GyPnOraFCjMfz85DNhtUE8NE9QW2n.jpg" class="d-block w-100" alt="">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://mmo13.ru/download/content/201909/27/21/image_5d8e5a8859e835.47835346.jpg?1569610429" class="d-block w-100" alt="">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <p>
+                    In a tweet, Rockstar support announced that "a new title update is now available for Grand Theft Auto V and GTA Online, including improvements to load times on the PC version of GTA Online." In the attached version 1.53 patch notes, "improvements to PC loading times" are included, along with a message reading "thanks to t0st for his contributions around this part of today's title update," referencing the fan who identified the potential fix.
+                </p>
+                <p>
+                    According to PC Gamer, players are already feeling the effects, with load times reportedly dropping from 7 to 8 minutes to as little as 35 seconds in some cases. That's certainly at the top end of results, but even less impressive changes could see a minute or two shaved off your times.
+                </p>
+                <p>
+                    GitHub user tostercx (aka T0st), details how they cut GTA Online load times by 70% in a blog post. T0st picked up the game after some time away from the world of Los Santos, and was "shocked to discover that it still loads just as slow as the day it was released seven years ago." So, they decided to work towards reducing the load times - the post contains a detailed technical analysis of just how they pulled it off, if that interests you/makes any sense. TL;DR: it was being caused by a "single thread CPU bottleneck" while booting up GTA Online, which they suggest "shouldn't take more than a day for a single dev to solve."
+                </p>
+                <p>
+                    Rockstar has confirmed to PC Gamer that this solution works and that the company will be implementing it in an upcoming update. "After a thorough investigation, we can confirm that player t0st did, in fact, reveal an aspect of the game code related to load times for the PC version of GTA Online that could be improved," the company said in a statement. "As a result of these investigations, we have made some changes that will be implemented in a forthcoming title update."
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            Website was made as a final project for WEB-techonologies by Timur Umurzakov, SE-2013
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="..\script.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+body{
+    background-color:#fbfbfb;
+    min-height: 1000px;
+    margin: 0;
+}
+
+.myNavbar{
+    height: 60px;
+    background-color: rgb(37, 36, 36);
+    display: flex; /** Will be changed by JQuery to flex */
+    align-items: center;
+    padding: 0;
+    padding-left: 5px;
+}
+
+.myNavbar a{
+    text-decoration: none;
+}
+
+.myNavbar a:hover{
+    color: honeydew;
+}
+
+.myNavbar>a:first-child{
+    margin-left: 50px;
+}
+
+.myNav-link{
+    font-size: 25px;
+    text-decoration: none;
+    color: honeydew;
+    padding: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    user-select:none;
+}
+
+.myDropdown-menu{
+    display: inline-block;
+    position: relative;
+}
+
+#nav-drop-menu{
+    margin-top: 12px;
+    position: absolute;
+    display: none;
+    background-color: rgb(63, 63, 63);
+    min-width: 150px;
+    z-index: 1;
+}
+
+.myDrop-link{
+    font-size: 20px;
+    text-decoration: none;
+    color: honeydew;
+    padding: 15px;
+    display: block;
+}
+
+input:focus{
+    outline: none;
+}
+
+.button{
+    margin-top: 5px;
+    padding: 5px;
+    height: 50px;
+    width: 100px;
+    font-size: 22px;
+    border-radius: 5px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.nav-tabs{
+    justify-content: center;
+}
+
+#registration{
+    height: 900px;
+    width: 100%;
+}
+
+#form{
+    width: 100%;
+}
+
+#reg, #log{
+    min-width: 300px;
+    max-width: 750px;
+    margin: 50px;
+}
+
+/** Changing container for smaller screens */
+@media screen and (max-width: 1280px){
+    .myNavbar a{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 616px){
+    .myNavbar>a:first-child{
+        margin-left: 5px;
+    }
+
+    .myNav-links{
+        margin-left: 0px;
+    }
+
+    .myDropdown-menu{
+        margin-top: 0px;
+    }
+}
